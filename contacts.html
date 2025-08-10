@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Контакты — Автошкола Практика, Смоленск</title>
+    <meta name="description" content="Контакты автошколы Практика: адрес, телефоны, карта. Смоленск, ул. 2-ая Краснинская, 7/1, 3-й этаж (рядом с «Современником»)." />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="Автошкола Практика — на главную"><span class="logo__mark">P</span><span class="logo__text">Практика</span></a>
+        <nav class="nav" aria-label="Основная навигация">
+          <button class="nav__toggle" aria-expanded="false" aria-controls="primary-menu"><span class="nav__toggle-line"></span><span class="nav__toggle-line"></span><span class="nav__toggle-line"></span><span class="sr-only">Меню</span></button>
+          <ul id="primary-menu" class="nav__list">
+            <li><a href="training.html" class="nav__link">Обучение</a></li>
+            <li><a href="info.html" class="nav__link">Сведения</a></li>
+            <li><a href="reviews.html" class="nav__link">Отзывы</a></li>
+            <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-cta">
+          <button class="theme-toggle" title="Переключить тему" aria-label="Переключить тему">Тема</button>
+          <button class="btn btn--primary" data-open-enroll type="button">Записаться</button>
+          <a href="tel:+74812404047" class="header-phone">+7 (4812) 40‑40‑47</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section">
+        <div class="container">
+          <h1 class="section__title">Контакты</h1>
+          <div class="cards-grid">
+            <article class="card"><h3 class="card__title">Компания</h3><p class="card__text">Автошкола «Практика»</p></article>
+            <article class="card"><h3 class="card__title">Адрес</h3><p class="card__text">Смоленск, ул. 2‑ая Краснинская, д. 7/1, 3‑й этаж (рядом с «Современником»)</p></article>
+            <article class="card"><h3 class="card__title">Телефоны</h3><p class="card__text"><a href="tel:+74812404047">+7 (4812) 40‑40‑47</a><br/><a href="tel:+74812400963">+7 (4812) 40‑09‑63</a></p></article>
+            <article class="card"><h3 class="card__title">График</h3><p class="card__text">По записи. Звоните — подберём удобное время.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="container">
+          <h2 class="section__title">Мы на карте</h2>
+          <div style="position:relative;overflow:hidden;border-radius:14px;border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow)">
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=32.041805%2C54.772435&mode=search&z=17&text=Практика%20автошкола&oid=1055570694" width="100%" height="420" frameborder="0" allowfullscreen="true" style="display:block"></iframe>
+          </div>
+          <p style="color:var(--muted);margin-top:10px">Адрес: Смоленск, ул. 2‑ая Краснинская, д. 7/1, 3‑й этаж. Источник: <a href="https://yandex.ru/maps/org/praktika/1055570694/?from=mapframe&ll=32.041805%2C54.772435&z=14" target="_blank" rel="noopener">карта Яндекс</a>.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="site-footer">
+      <div class="container footer__grid">
+        <div class="footer__brand"><div class="logo logo--footer"><span class="logo__mark">P</span><span class="logo__text">Практика</span></div><p>Смоленск, ул. 2-ая Краснинская, д. 7/1, 3-й этаж (рядом с «Современником»).</p></div>
+        <nav class="footer__nav" aria-label="Ссылки"><a href="training.html">Обучение</a><a href="info.html">Сведения</a><a href="reviews.html">Отзывы</a><a href="contacts.html">Контакты</a></nav>
+        <div class="footer__contacts"><a class="footer__phone" href="tel:+74812404047">+7 (4812) 40‑40‑47</a><a class="footer__map" href="https://yandex.ru/maps/org/praktika/1055570694/?from=mapframe&ll=32.041805%2C54.772435&z=14" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a><div class="socials" aria-label="Социальные сети"><a href="#" aria-label="VK" class="socials__item" title="VK"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.615 17c-5.125 0-7.9-3.476-8.04-9.235h2.53c.08 3.96 1.84 5.64 3.245 5.99V7.765h2.39v3.42c1.38-.15 2.83-1.74 3.32-3.42h2.39c-.38 2.13-1.98 3.72-3.1 4.35 1.12.53 3.01 1.9 3.7 4.885h-2.63c-.53-1.81-1.86-3.205-3.68-3.385V17h-2.39z"/></svg></a></div></div>
+      </div>
+      <div class="container footer__bottom"><small>© <span id="year"></span> Практика. Все права защищены.</small></div>
+    </footer>
+
+    <script defer src="assets/scripts/main.js"></script>
+    <div class="modal" id="enroll-modal" aria-hidden="true" role="dialog" aria-labelledby="enroll-title">
+      <div class="modal__backdrop" data-close></div>
+      <div class="modal__dialog">
+        <div class="modal__header">
+          <h3 class="modal__title" id="enroll-title">Запись на обучение</h3>
+          <button class="modal__close" type="button" aria-label="Закрыть" data-close>✕</button>
+        </div>
+        <div class="modal__body">
+          <form class="modal__form" aria-label="Форма записи в модальном окне">
+            <label class="sr-only" for="enroll-name">Имя</label>
+            <input id="enroll-name" name="name" type="text" placeholder="Ваше имя" required />
+            <label class="sr-only" for="enroll-phone">Телефон</label>
+            <input id="enroll-phone" name="phone" type="tel" placeholder="Телефон" required />
+            <button type="submit" class="btn btn--primary">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
+
